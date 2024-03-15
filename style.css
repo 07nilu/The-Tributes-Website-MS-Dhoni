@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #ccc;
+    border: 10px solid black;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+   
+    
+}
+
+.top-section{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.name h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: maroon;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+}
+
+.name h4{
+    text-align: end;
+    font-size: 20px;
+}
+
+.image-container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container,img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+
+.about-section{
+    margin-top: 50px;
+   
+}
+
+.about-section h2{
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about-section p{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1.3px;
+    text-align: justify;
+}
+
+
+.int-career-section{
+    margin-top: 50px;
+}
+
+.int-career-section h2{
+    font-size: 45px;
+    font-weight: 400;
+    /* margin-bottom: 20px; */
+}
+
+.int-career-section h3{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.int-career-section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    text-align: justify;
+}
+
+
+.record-achiv{
+    margin-top: 50px;
+}
+
+.record-achiv h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.record-achiv h3{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 25px;
+}
+
+.record{
+    margin-left: 50px;
+}
+
+.record,li{
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    line-height: 20px;
+}
+
+
+footer p{
+    text-align: end;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.space{
+    padding: 0 20px;
+}
